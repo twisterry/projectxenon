@@ -12,7 +12,7 @@ __Server der Liste "Game Server":__
 + GrieferGames
 + OpenMC
 + GamesMC
-+ Mc Leben  
++ Mc Leben
 __Server der Liste "Cool Servers / Coole Server :D":__
 + Twisterry's Server
 + TheJoCraft's AmongUS
