@@ -27,9 +27,16 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
+        Me.WebBrowser2 = New System.Windows.Forms.WebBrowser()
+        Me.TabControl1.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
+        Me.TabPage1.SuspendLayout()
         Me.SuspendLayout()
         '
         'ComboBox1
@@ -64,47 +71,90 @@ Partial Class Form1
         '
         Me.Button2.BackColor = System.Drawing.Color.DarkRed
         Me.Button2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button2.Location = New System.Drawing.Point(9, 303)
+        Me.Button2.Location = New System.Drawing.Point(9, 307)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(292, 39)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "Alle Server löschen!"
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'WebBrowser1
-        '
-        Me.WebBrowser1.Location = New System.Drawing.Point(9, 98)
-        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.Size = New System.Drawing.Size(292, 199)
-        Me.WebBrowser1.TabIndex = 4
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(9, 6)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(64, 22)
-        Me.Button3.TabIndex = 5
-        Me.Button3.Text = "Deutsch"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(79, 7)
+        Me.Button4.Location = New System.Drawing.Point(163, 6)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(64, 21)
         Me.Button4.TabIndex = 6
         Me.Button4.Text = "Englisch"
         Me.Button4.UseVisualStyleBackColor = True
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(80, 6)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(64, 22)
+        Me.Button3.TabIndex = 5
+        Me.Button3.Text = "Deutsch"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'TabControl1
+        '
+        Me.TabControl1.Controls.Add(Me.TabPage2)
+        Me.TabControl1.Controls.Add(Me.TabPage1)
+        Me.TabControl1.Location = New System.Drawing.Point(9, 78)
+        Me.TabControl1.Name = "TabControl1"
+        Me.TabControl1.SelectedIndex = 0
+        Me.TabControl1.Size = New System.Drawing.Size(292, 230)
+        Me.TabControl1.TabIndex = 7
+        '
+        'TabPage2
+        '
+        Me.TabPage2.Controls.Add(Me.WebBrowser1)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(284, 204)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "TabPage2"
+        Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'TabPage1
+        '
+        Me.TabPage1.Controls.Add(Me.WebBrowser2)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(284, 204)
+        Me.TabPage1.TabIndex = 2
+        Me.TabPage1.Text = "TabPage1"
+        Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'WebBrowser1
+        '
+        Me.WebBrowser1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.WebBrowser1.Location = New System.Drawing.Point(3, 3)
+        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser1.Name = "WebBrowser1"
+        Me.WebBrowser1.Size = New System.Drawing.Size(278, 198)
+        Me.WebBrowser1.TabIndex = 0
+        '
+        'WebBrowser2
+        '
+        Me.WebBrowser2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.WebBrowser2.Location = New System.Drawing.Point(3, 3)
+        Me.WebBrowser2.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser2.Name = "WebBrowser2"
+        Me.WebBrowser2.Size = New System.Drawing.Size(278, 198)
+        Me.WebBrowser2.TabIndex = 0
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ControlLight
         Me.ClientSize = New System.Drawing.Size(313, 354)
+        Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.WebBrowser1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
@@ -114,6 +164,9 @@ Partial Class Form1
         Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.Text = "Form1"
+        Me.TabControl1.ResumeLayout(False)
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -123,7 +176,11 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents WebBrowser1 As WebBrowser
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
+    Friend WithEvents TabControl1 As TabControl
+    Friend WithEvents TabPage2 As TabPage
+    Friend WithEvents WebBrowser1 As WebBrowser
+    Friend WithEvents TabPage1 As TabPage
+    Friend WithEvents WebBrowser2 As WebBrowser
 End Class
