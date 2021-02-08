@@ -1,1 +1,2 @@
-# mcsereverlisttool
+# MCSLT
+## Minecraft Server list Tool
