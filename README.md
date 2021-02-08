@@ -22,6 +22,7 @@ Dieses Tool erlaubt es dem Nutzer angenehm Die Minecraft Server zu wechseln.
 + TheJoCraft's AmongUS
 + FloZocktt's Server
 + Nyloxxx' Server
+###### Hinweis: Du musst das Tool nicht updaten, um die neuen Server zu erhalten!
 ## Funktionen:
 + mehrere Listen zur Auswahl
 + Alle Server löschen
