@@ -31,9 +31,11 @@ Partial Class Form1
         Me.Button3 = New System.Windows.Forms.Button()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.WebBrowser2 = New System.Windows.Forms.WebBrowser()
+        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -42,7 +44,7 @@ Partial Class Form1
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Game Server", "Coole Server :D"})
+        Me.ComboBox1.Items.AddRange(New Object() {"Game Server", "Cool Servers"})
         Me.ComboBox1.Location = New System.Drawing.Point(9, 53)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(218, 21)
@@ -71,7 +73,7 @@ Partial Class Form1
         '
         Me.Button2.BackColor = System.Drawing.Color.DarkRed
         Me.Button2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button2.Location = New System.Drawing.Point(9, 307)
+        Me.Button2.Location = New System.Drawing.Point(9, 341)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(292, 39)
         Me.Button2.TabIndex = 3
@@ -100,7 +102,7 @@ Partial Class Form1
         '
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Controls.Add(Me.TabPage1)
-        Me.TabControl1.Location = New System.Drawing.Point(9, 78)
+        Me.TabControl1.Location = New System.Drawing.Point(9, 112)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
         Me.TabControl1.Size = New System.Drawing.Size(292, 230)
@@ -117,6 +119,15 @@ Partial Class Form1
         Me.TabPage2.Text = "TabPage2"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
+        'WebBrowser1
+        '
+        Me.WebBrowser1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.WebBrowser1.Location = New System.Drawing.Point(3, 3)
+        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser1.Name = "WebBrowser1"
+        Me.WebBrowser1.Size = New System.Drawing.Size(278, 198)
+        Me.WebBrowser1.TabIndex = 0
+        '
         'TabPage1
         '
         Me.TabPage1.Controls.Add(Me.WebBrowser2)
@@ -128,15 +139,6 @@ Partial Class Form1
         Me.TabPage1.Text = "TabPage1"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
-        'WebBrowser1
-        '
-        Me.WebBrowser1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.WebBrowser1.Location = New System.Drawing.Point(3, 3)
-        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.Size = New System.Drawing.Size(278, 198)
-        Me.WebBrowser1.TabIndex = 0
-        '
         'WebBrowser2
         '
         Me.WebBrowser2.Dock = System.Windows.Forms.DockStyle.Fill
@@ -146,12 +148,30 @@ Partial Class Form1
         Me.WebBrowser2.Size = New System.Drawing.Size(278, 198)
         Me.WebBrowser2.TabIndex = 0
         '
+        'ProgressBar1
+        '
+        Me.ProgressBar1.Location = New System.Drawing.Point(9, 80)
+        Me.ProgressBar1.Name = "ProgressBar1"
+        Me.ProgressBar1.Size = New System.Drawing.Size(292, 23)
+        Me.ProgressBar1.TabIndex = 8
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(184, 109)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(117, 20)
+        Me.Button5.TabIndex = 9
+        Me.Button5.Text = "Listen aktualisieren"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.ClientSize = New System.Drawing.Size(313, 354)
+        Me.ClientSize = New System.Drawing.Size(313, 388)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -183,4 +203,6 @@ Partial Class Form1
     Friend WithEvents WebBrowser1 As WebBrowser
     Friend WithEvents TabPage1 As TabPage
     Friend WithEvents WebBrowser2 As WebBrowser
+    Friend WithEvents ProgressBar1 As ProgressBar
+    Friend WithEvents Button5 As Button
 End Class

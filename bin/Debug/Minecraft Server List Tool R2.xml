@@ -22,15 +22,5 @@ Minecraft Server List Tool R2
   Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
 </summary>
 </member>
-<member name="P:Minecraft_Server_List_Tool_R2.My.Resources.Resources.ice_1997288_1920">
-<summary>
-  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:Minecraft_Server_List_Tool_R2.My.Resources.Resources.Thank">
-<summary>
-  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
-</summary>
-</member>
 </members>
 </doc>
