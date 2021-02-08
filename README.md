@@ -12,7 +12,11 @@ Dieses Tool erlaubt es dem Nutzer angenehm Die Minecraft Server zu wechseln.
 + GrieferGames
 + OpenMC
 + GamesMC
-+ Mc Leben  
++ Mc Leben
++ Rewinside.tv
++ Briiaan.de
++ Bausucht.net
++ MixelPixel
 ###### __Server der Liste "Cool Servers / Coole Server :D":__
 + Twisterry's Server
 + TheJoCraft's AmongUS
