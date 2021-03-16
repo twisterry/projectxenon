@@ -1,4 +1,3 @@
-C:\Users\Besitzer\source\repos\Minecraft Server List Tool R2\Minecraft Server List Tool R2\obj\Debug\Minecraft Server List Tool R2.vbprojAssemblyReference.cache
 C:\Users\Besitzer\source\repos\Minecraft Server List Tool R2\Minecraft Server List Tool R2\obj\Debug\Minecraft_Server_List_Tool_R2.Resources.resources
 C:\Users\Besitzer\source\repos\Minecraft Server List Tool R2\Minecraft Server List Tool R2\obj\Debug\Minecraft Server List Tool R2.vbproj.GenerateResource.cache
 C:\Users\Besitzer\source\repos\Minecraft Server List Tool R2\Minecraft Server List Tool R2\obj\Debug\Minecraft Server List Tool R2.vbproj.CoreCompileInputs.cache
@@ -10,8 +9,3 @@ C:\Users\Besitzer\source\repos\Minecraft Server List Tool R2\Minecraft Server Li
 C:\Users\Besitzer\source\repos\Minecraft Server List Tool R2\Minecraft Server List Tool R2\obj\Debug\Minecraft Server List Tool R2.exe
 C:\Users\Besitzer\source\repos\Minecraft Server List Tool R2\Minecraft Server List Tool R2\obj\Debug\Minecraft Server List Tool R2.xml
 C:\Users\Besitzer\source\repos\Minecraft Server List Tool R2\Minecraft Server List Tool R2\obj\Debug\Minecraft Server List Tool R2.pdb
-C:\Users\Besitzer\source\repos\Minecraft Server List Tool R2\Minecraft Server List Tool R2\bin\Debug\Minecraft Server List Tool R2.exe.manifest
-C:\Users\Besitzer\source\repos\Minecraft Server List Tool R2\Minecraft Server List Tool R2\bin\Debug\Minecraft Server List Tool R2.application
-C:\Users\Besitzer\source\repos\Minecraft Server List Tool R2\Minecraft Server List Tool R2\obj\Debug\Minecraft Server List Tool R2.TrustInfo.xml
-C:\Users\Besitzer\source\repos\Minecraft Server List Tool R2\Minecraft Server List Tool R2\obj\Debug\Minecraft Server List Tool R2.exe.manifest
-C:\Users\Besitzer\source\repos\Minecraft Server List Tool R2\Minecraft Server List Tool R2\obj\Debug\Minecraft Server List Tool R2.application
