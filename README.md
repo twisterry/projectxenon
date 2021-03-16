@@ -17,11 +17,12 @@ Dieses Tool erlaubt es dem Nutzer angenehm Die Minecraft Server zu wechseln.
 + Briiaan.de
 + Bausucht.net
 + MixelPixel
-###### __Server der Liste "Cool Servers / Coole Server :D":__
+###### __Server der Liste "Partner Server":__
 + Twisterry's Server
 + TheJoCraft's AmongUS
-+ FloZocktt's Server
 + Nyloxxx' Server
+###### __Server der Liste "eingesendete Server":__
++ Noch keine, sende deine Vorschläge an: admin@twisterry.ml
 ###### Hinweis: Du musst das Tool nicht updaten, um die neuen Server zu erhalten!
 ## Funktionen:
 + mehrere Listen zur Auswahl
