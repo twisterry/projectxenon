@@ -13,7 +13,7 @@ Dieses Tool erlaubt es dem Nutzer angenehm Die Minecraft Server zu wechseln.
 + OpenMC
 + GamesMC
 + Mc Leben
-+ Rewinside.tv
++ ~~Rewinside.tv
 + Briiaan.de
 + Bausucht.net
 + MixelPixel
