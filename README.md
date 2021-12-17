@@ -1,6 +1,5 @@
-# MCSLT
+# Project Xenon
 
-## Minecraft Server list Tool
 Dieses Tool erlaubt es dem Nutzer angenehm Die Minecraft Server zu wechseln.  
 ###### __Server der Liste "Game Server":__
 + GommeHD.net
